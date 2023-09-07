@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Basic HTML/Tailwind starter</title>
+  <meta name="description" content="Basic HTML/Tailwind starter" />
+  <meta name="author" content="Daily Dev Tips" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  
+</head>
+
+<body class="bg-primary text-white uppercase text-center tracking-wide" x-data="{ open: false }">
+  <main class="flex min-h-screen flex-col items-center justify-between">
+    <div class="flex  flex-1 flex-col items-center justify-center w-full">
+
+      <img src="logo.svg" alt="Nikaido" width="300" height="283" class="w-2/3 max-w-sm"/>
+      <p class='py-16 text-2xl' >Coming soon</p>
+    </div>
+    <p x-on:click="open = ! open" x-show="!open" class="py-8 underline cursor-pointer">SIGN UP FOR UPDATES</p>
+
+    <div id="mc_embed_shell" x-show="open" x-trap="open">
+
+      <div id="mc_embed_signup">
+        <form
+          action="https://amillionmonkeys.us21.list-manage.com/subscribe/post?u=9ae4a6ee6aa880d372becb31e&amp;id=24df62f265&amp;f_id=00c6dde6f0"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+          target="_self" novalidate="">
+          <div id="mc_embed_signup_scroll" class="flex bg-white rounded items-center my-6">
+
+            <div class="mc-field-group"><input autofocus type="email" name="EMAIL"
+                class="required email text-black appearance-none border-0 rounded p-2 h-full border-transparent !focus:border-transparent !focus:ring-0 w-56 text-center rounded-tr-none rounded-br-none"
+                id="mce-EMAIL" required="" value="" placeholder="Email address"><span id="mce-EMAIL-HELPERTEXT"
+                class="helper_text"></span></div>
+            <div id="mce-responses" class="clear foot">
+              <div class="response" id="mce-error-response" style="display: none;"></div>
+              <div class="response" id="mce-success-response" style="display: none;"></div>
+            </div>
+            <div aria-hidden="true" style="position: absolute; left: -5000px;">
+
+              <input type="text" name="b_9ae4a6ee6aa880d372becb31e_24df62f265" tabindex="-1" value="">
+            </div>
+            <div class="optionalParent">
+              <div class="clear foot">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe"
+                  class="button bg-black text-white rounded py-2 px-6 w-full rounded-tl-none rounded-bl-none "
+                  value="Subscribe">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
