@@ -614,5 +614,10 @@ video {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.jp {
+
+    font-family: 'Noto Sans JP', sans-serif;
 }
