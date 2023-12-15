@@ -531,8 +531,8 @@ video {
 .max-w-7xl {
   max-width: 80rem;
 }
-.max-w-xl {
-  max-width: 36rem;
+.max-w-lg {
+  max-width: 32rem;
 }
 .items-center {
   align-items: center;
@@ -584,8 +584,8 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 .uppercase {
@@ -608,31 +608,24 @@ body {
 
 @font-face {
     font-family: Minion;
-    src: url("docs/MinionVariableConcept-Roman.otf") format("opentype");
+    src: url("MinionVariableConcept-Roman.otf") format("opentype");
 }
 
 @font-face {
     font-family: AdvertPro;
-    src: url("docs/AdvertPro-Light.otf") format("opentype");
+    src: url("AdvertPro-Light.otf") format("opentype");
 }
 body {
-    font-family: 'AdvertPro', sans-serif;
+    font-family: AdvertPro, sans-serif;
 }
 
-h2 {
+h1, h2 {
     font-family: Minion;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
     line-height: 1.5;
 }
-
-
-.jp {
-
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
 
 @media (min-width: 768px) {
 
@@ -641,7 +634,6 @@ h2 {
     line-height: 2.5rem;
   }
 }
-
 
 @media (min-width: 1024px) {
 

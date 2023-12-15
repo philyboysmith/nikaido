@@ -8,27 +8,21 @@ body {
 
 @font-face {
     font-family: Minion;
-    src: url("docs/MinionVariableConcept-Roman.otf") format("opentype");
+    src: url("MinionVariableConcept-Roman.otf") format("opentype");
 }
 
 @font-face {
     font-family: AdvertPro;
-    src: url("docs/AdvertPro-Light.otf") format("opentype");
+    src: url("AdvertPro-Light.otf") format("opentype");
 }
 body {
-    font-family: 'AdvertPro', sans-serif;
+    font-family: AdvertPro, sans-serif;
 }
 
-h2 {
+h1, h2 {
     font-family: Minion;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
     line-height: 1.5;
-}
-
-
-.jp {
-
-    font-family: 'Noto Sans JP', sans-serif;
 }
