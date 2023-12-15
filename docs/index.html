@@ -21,48 +21,40 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<body class="jp bg-primary text-white uppercase text-center tracking-wide" x-data="{ open: false }">
-  <main class="flex min-h-screen flex-col items-center justify-between">
-    <div class="flex  flex-1 flex-col items-center justify-center w-full">
-
-      <img src="logo.svg" alt="Nikaido" width="300" height="283" class="w-2/3 max-w-sm"/>
-      <p class='py-16 text-2xl' >Coming soon</p>
+<body class="jp bg-primary text-white  text-center tracking-wide" x-data="{ open: false }">
+  <div class="min-h-screen relative">
+    <video autoplay muted loop id="myVideo" class="w-full absolute inset-0 object-cover h-full">
+      <source src="splash-test-5b.mp4" type="video/mp4">
+      </video>
+    <div class="absolute inset-0 flex items-center justify-center">
+      <h2 class="text-2xl md:text-4xl lg:text-5xl px-16">The original pure barley Shochu from Oita</h2>
     </div>
-    <p x-on:click="open = ! open" x-show="!open" class="py-8 underline cursor-pointer">SIGN UP FOR UPDATES <br /><span class="jp">最新情報を受け取る</span></p>
-
-    <div id="mc_embed_shell" x-show="open" x-trap="open">
-
-      <div id="mc_embed_signup">
-        <form
-          action="https://amillionmonkeys.us21.list-manage.com/subscribe/post?u=9ae4a6ee6aa880d372becb31e&amp;id=24df62f265&amp;f_id=00c6dde6f0"
-          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-          target="_self" novalidate="">
-          <div id="mc_embed_signup_scroll" class="flex bg-white rounded items-center my-6">
-
-            <div class="mc-field-group"><input autofocus type="email" name="EMAIL"
-                class="required email text-black appearance-none border-0 rounded p-2 h-full border-transparent !focus:border-transparent !focus:ring-0 w-56 text-center rounded-tr-none rounded-br-none"
-                id="mce-EMAIL" required="" value="" placeholder="Email address"><span id="mce-EMAIL-HELPERTEXT"
-                class="helper_text"></span></div>
-            <div id="mce-responses" class="clear foot">
-              <div class="response" id="mce-error-response" style="display: none;"></div>
-              <div class="response" id="mce-success-response" style="display: none;"></div>
-            </div>
-            <div aria-hidden="true" style="position: absolute; left: -5000px;">
-
-              <input type="text" name="b_9ae4a6ee6aa880d372becb31e_24df62f265" tabindex="-1" value="">
-            </div>
-            <div class="optionalParent">
-              <div class="clear foot">
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe"
-                  class="button bg-black text-white rounded py-2 px-6 w-full rounded-tl-none rounded-bl-none "
-                  value="Subscribe">
-              </div>
-            </div>
-          </div>
-        </form>
+    <div class="fixed top-0 w-full">
+      <div class="flex justify-between items-center p-2 lg:p-6 gap-12">
+        <div><img src="logo-2.svg" alt="Nikaido" width="300" height="283" class="w-12 h-auto" /></div>
+        
+       <div><img src="burger.svg" alt="Nikaido" width="300" height="283" class="w-8 h-auto" /></div>
       </div>
     </div>
-
+    <div class="max-w-7xl mx-auto relative">
+      <div class="flex justify-center items-center p-2 lg:p-6 gap-12">
+        <div class=""><img src="wordmark.svg" alt="Nikaido" width="300" height="283" class="w-32 h-auto" /></div>
+      </div>
+     
+      
+      
+    </div>
+  </div>
+  <main class="py-14">
+      <div class="max-w-xl px-4 mx-auto space-y-6">
+        <h1 class="font-serif uppercase tracking-widest text-xl">THE HOUSE OF NIKAIDO</h1>
+        <p>
+          A family owned business since 1866, we bring you the Original Oita Mugi Shochu, made without compromise, purely from 100% barley.
+        </p>
+        <p>
+          Over 8 generations of independence and family ownershiphas enabled the Nikaido company to consistently follow a singular vision and pursue a chosen ideal without compromise.
+        </p>
+      </div>
   </main>
 </body>
 
