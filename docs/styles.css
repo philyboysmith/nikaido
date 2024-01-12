@@ -601,6 +601,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(30 30 28 / var(--tw-text-opacity));
 }
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 
 
 @font-face {
