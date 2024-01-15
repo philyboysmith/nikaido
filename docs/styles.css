@@ -510,6 +510,9 @@ video {
 .flex {
   display: flex;
 }
+.h-\[82px\] {
+  height: 82px;
+}
 .h-auto {
   height: auto;
 }
@@ -519,17 +522,23 @@ video {
 .min-h-screen {
   min-height: 100vh;
 }
-.w-12 {
-  width: 3rem;
-}
 .w-32 {
   width: 8rem;
 }
 .w-8 {
   width: 2rem;
 }
+.w-\[70px\] {
+  width: 70px;
+}
+.w-auto {
+  width: auto;
+}
 .w-full {
   width: 100%;
+}
+.max-w-3xl {
+  max-width: 48rem;
 }
 .max-w-7xl {
   max-width: 80rem;
@@ -661,11 +670,20 @@ h1, h2 {
     padding: 1.5rem;
   }
 
+  .lg\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .lg\:text-\[116px\] {
     font-size: 116px;
   }
 
   .lg\:text-\[78px\] {
     font-size: 78px;
+  }
+
+  .lg\:\!leading-\[122px\] {
+    line-height: 122px !important;
   }
 }
