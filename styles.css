@@ -4,8 +4,7 @@
 
 
 @font-face {
-    font-family: Minion;
-    src: url("MinionVariableConcept-Roman.otf") format("opentype");
+    font-family: "minion-pro", serif;
 }
 
 @font-face {
