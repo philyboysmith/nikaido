@@ -605,9 +605,6 @@ video {
 .text-center {
   text-align: center;
 }
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -670,14 +667,16 @@ body {
     font-family: AdvertPro, sans-serif;
 }
 
+.font-serif {
+    font-family: "minion-pro";
+}
 h1, h2 {
-    font-family: Minion;
+    font-family: "minion-pro"!important;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5rem;
     line-height: 1.5;
 }
-
 @media (min-width: 640px) {
 
   .sm\:h-\[82px\] {
@@ -698,14 +697,12 @@ h1, h2 {
     padding-bottom: 1.75rem;
   }
 }
-
 @media (min-width: 768px) {
 
   .md\:inline {
     display: inline;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:text-\[52px\] {
